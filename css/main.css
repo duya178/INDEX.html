@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+.img-responsive{width: 100%}
+.product {border: #C0C0C0 3px solid; min-height: 250px; position:absolute; padding: 20px}
+.cap { width:200px; position:relative; background-color: #FFFFFF; color: #FFDE8C;  text-align: center; margin-left: 50px; bottom: 30px; padding: 10px}
+.nopad {padding: 0px}
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #c2c2c2;
+	display:inline-block;
+	cursor:pointer;
+	color:#8f8f8f;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:9px 17px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0);
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.image08 {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px
+}
+.hover08:hover .overlay08 {
+	opacity: 1;
+}
+.hover08 {
+	position: relative
+}
+.overlay08 {
+	position: absolute;
+	bottom: 0;
+	background: rgb(250,178,163);
+	background: rgba(250,178,163, 0.5); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	transition: .5s ease;
+	opacity: 0;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.foot { position: absolute}
